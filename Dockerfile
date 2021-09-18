@@ -1,4 +1,4 @@
-FROM ruby:2.7-alpine3.13
+FROM ruby:2.7.4-slim-buster
 
 WORKDIR /usr/src/app/
 
