@@ -1,0 +1,7 @@
+services:
+  details:
+    build: .
+    container_name: details
+    image: ghcr.io/loukhin/itkmitl-bookinfo-details:dev
+    ports:
+      - "8081:9080"
