@@ -13,5 +13,4 @@ ingress:
   path: "/student36/details(/|$)(.*)"
   serviceType: ClusterIP
 extraEnv:
-  SERVICE_VERSION: v2
   COMMIT_SHA: CHANGEME
